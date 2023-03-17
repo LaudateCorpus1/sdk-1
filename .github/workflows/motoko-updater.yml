@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: niv-updater-action
-        uses: knl/niv-updater-action@60f23607814cf4f2e80a1e32ee74f8323897d09e
+        uses: knl/niv-updater-action@f21466b487c5789737c105fc878560b3228c80cf
         with:
           whitelist: 'motoko'
           title_prefix: 'build: '
